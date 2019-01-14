@@ -9,6 +9,7 @@ var api = {
  * Makes an AJAX request to themoviedb.org, asking for some movies
  * if successful, prints the results to the console
  */
+
 function testTheAPI() {
 	$.ajax({
 		url: api.root + "/discover/movie",
